@@ -16,16 +16,42 @@ settings:
 
 monitors:
   - id: na-edu
-    name: na.edu
+    name: NA.Edu
     description: 'North American University'
     url: 'https://www.na.edu'
     
+  - id: portal-na-edu
+    name: Portal.NA.Edu
+    description: 'MyNAU Student Portal'
+    url: 'https://portal.na.edu/ics'
+    
+  - id: shop-na-edu
+    name: Shop.NA.Edu
+    description: 'NAU Shop (ecommerce)'
+    url: 'https://shop.na.edu'
+    
+  - id: office-com
+    name: Office.com
+    description: 'Microsoft Office'
+    url: 'https://www.office.com'
+    
+  - id: outlook-office-com
+    name: Outlook.Office.com
+    description: 'Microsoft Office Outlook Email'
+    url: 'https://outlook.office.com'
+    expectStatus: 301 # Should redirect to /owa for authentication
+    
   - id: netacad-com
-    name: netacad.com
+    name: NetAcad.com
     description: 'Cisco Networking Academy'
     url: 'https://www.netacad.com'
     
-    # Available variables
+  - id: bing-com
+    name: Bing.com
+    description: 'Bing Search Engine'
+    url: 'https://www.bing.com'
+    
+    # Available vars
 #   - id: workers-cloudflare-com # unique identifier
 #     name: workers.cloudflare.com
 #     description: 'You write code. They handle the rest.' # default=empty
